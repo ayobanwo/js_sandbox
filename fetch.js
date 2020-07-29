@@ -5,7 +5,6 @@ function getText(){
 		.then(function(res){
 			return res.text();
 		})
-<<<<<<< HEAD
 		.then(function(data){
 			console.log(data);
 			document.getElementById('output').innerHTML = data ;
@@ -14,9 +13,3 @@ function getText(){
 			console.log(err);
 		});
 }  
-=======
-			.then(function(data){
-				console.log(data);
-			});
-}
->>>>>>> origin/master
