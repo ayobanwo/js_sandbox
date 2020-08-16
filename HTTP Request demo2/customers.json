@@ -1,0 +1,20 @@
+[
+	{
+		"id" : 1,
+		"name" : "Allison Knight",
+		"company" : "US Marshals", 
+		"phone": "960-522-5455"
+	},
+	{
+		"id" : 2,
+		"name" : "Kurt Weller",
+		"company" : "FBI", 
+		"phone": "545-492-4196"
+	},
+	{
+		"id" : 3,
+		"name" : "Zapata Natasha",
+		"company" : "CIA", 
+		"phone": "856-225-9120"
+	}
+]
