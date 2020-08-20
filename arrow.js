@@ -1,17 +1,25 @@
-//Normal funciton 
-// const sayHello = function(){
-// 	console.log('hello');
-// }
+// Normal funciton 
+function sayHello(){
+	console.log('hello');
+}
 
 //Arrow Function
-// const sayHello = () => {
-// 	console.log('Hello');
-// }
+sayHello = () => {
+	console.log('Hello');
+}
 
 //Single Line Arrow Function
-// const sayHello = () => console.log('Hello');
+sayHello = () => console.log('Hello');
 
-//Return Object
-const sayHello = () =>( {msg:hello} )
+//Normal Function
+.then(function(err){
+console.log('err')
+})
 
-console.log(sayHello());
+//Arrow
+.then(err => console.log(err)
+
+// //Return Object
+// const sayHello = () =>( {msg:hello} )
+
+sayHello();
