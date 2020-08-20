@@ -20,8 +20,7 @@ function getText(){
 //Get Local Json data
 function getJson(){
 	fetch('fetch.json')
-		.then( res => res.json()
-		)
+		.then( res => res.json() )
 		.then( data => {
 			console.log(data);
 			let output = '';

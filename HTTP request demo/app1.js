@@ -8,9 +8,9 @@ function loadData(){
 	xhr.open('GET', 'data.txt', true);
 
 	//Optional - used for spinners/loaders
-	xhr.onprogress = function(){
-		console.log('readyState', xhr.readyState);
-	}
+	// xhr.onprogress = function(){
+	// 	console.log('readyState', xhr.readyState);
+	// }
 
 	xhr.onload = function(){
 		console.log('readyState', xhr.readyState);
