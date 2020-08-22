@@ -1,9 +1,9 @@
 const http = new EasyHTTP;
 
 //Get Users
-// http.get('https://jsonplaceholder.typicode.com/users')
-// .then( data => console.log(data))
-// .then(err => console.log(err));
+http.get('https://jsonplaceholder.typicode.com/users')
+.then( data => console.log(data))
+.then(err => console.log(err));
 
 const data = {
 	name: 'Ali Adams',
@@ -22,6 +22,6 @@ const data = {
 // .then(err => console.log(err));
  
 //Delete User
-http.delete('https://jsonplaceholder.typicode.com/users/2')
-.then( data => console.log(data))
-.then(err => console.log(err));
+// http.delete('https://jsonplaceholder.typicode.com/users/2')
+// .then( data => console.log(data))
+// .then(err => console.log(err));
