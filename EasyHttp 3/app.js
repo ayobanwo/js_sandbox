@@ -12,14 +12,14 @@ const data = {
 }
 
 // //Post User
-http.post('https://jsonplaceholder.typicode.com/users', data)
-.then( data => console.log(data))
-.then(err => console.log(err));
-
-// //Put User
-// http.put('https://jsonplaceholder.typicode.com/users/2', data)
+// http.post('https://jsonplaceholder.typicode.com/users', data)
 // .then( data => console.log(data))
 // .then(err => console.log(err));
+
+// //Put User
+http.put('https://jsonplaceholder.typicode.com/users/2', data)
+.then( data => console.log(data))
+.then(err => console.log(err));
  
 //Delete User
 // http.delete('https://jsonplaceholder.typicode.com/users/2')
