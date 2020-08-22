@@ -17,11 +17,11 @@ const data = {
 // .then(err => console.log(err));
 
 // //Put User
-http.put('https://jsonplaceholder.typicode.com/users/2', data)
-.then( data => console.log(data))
-.then(err => console.log(err));
- 
-//Delete User
-// http.delete('https://jsonplaceholder.typicode.com/users/2')
+// http.put('https://jsonplaceholder.typicode.com/users/2', data)
 // .then( data => console.log(data))
 // .then(err => console.log(err));
+ 
+//Delete User
+http.delete('https://jsonplaceholder.typicode.com/users/2')
+.then( data => console.log(data))
+.then(err => console.log(err));
